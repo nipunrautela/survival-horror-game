@@ -1105,17 +1105,8 @@ ParticleSystem:
           inWeight: 0.33333334
           outWeight: 0.33333334
         - serializedVersion: 3
-          time: 0.19375105
-          value: 0.28444877
-          inSlope: -2.7286372
-          outSlope: -2.7286372
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0.33333334
-          outWeight: 0.33333334
-        - serializedVersion: 3
-          time: 0.48888266
-          value: 0.054050565
+          time: 0.37143576
+          value: 0.14864743
           inSlope: -1.1008815
           outSlope: -1.1008815
           tangentMode: 0
@@ -4883,7 +4874,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d1dd63898e72cc54bbf6e306c2844c94, type: 2}
+  - {fileID: 2100000, guid: ba7e86b8bec81c248b79786b66af646f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5042,7 +5033,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1418431918669257763}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.7279864, y: 4.7, z: -4.2636576}
+  m_LocalPosition: {x: 0, y: 4.7, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5128,7 +5119,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f948e33c6faa548fe8bef516e7e44d22, type: 3}
+  - {fileID: 2100000, guid: 4adb7e3d430901749839ff08ee77780a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
