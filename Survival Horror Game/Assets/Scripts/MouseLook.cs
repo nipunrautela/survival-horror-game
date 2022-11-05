@@ -8,7 +8,7 @@ public class MouseLook : MonoBehaviour
 
     public Transform playerBody;
 
-    float xRotation = 0f;
+    float xRotation;
     float mouseX;
 
     // Start is called before the first frame update

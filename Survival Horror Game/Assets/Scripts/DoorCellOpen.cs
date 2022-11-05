@@ -10,13 +10,15 @@ public class DoorCellOpen : MonoBehaviour
     public GameObject actionText;
     public GameObject theDoor;
     public AudioSource creakSound;
+    public GameObject crosshairBoundary;
 
     void Update()
     {
         theDistance = PlayerCasting.distanceFromTarget;
 
-        if (theDistance <= 3)
+        if (theDistance <= 5)
         {
+            crosshairBoundary.SetActive(true);
             actionDisplay.SetActive(true);
             actionText.SetActive(true);
             if (Input.GetButtonDown("Action"))
@@ -29,6 +31,7 @@ public class DoorCellOpen : MonoBehaviour
         }
         else
         {
+            crosshairBoundary.SetActive(false);
             actionDisplay.SetActive(false);
             actionText.SetActive(false);
         }

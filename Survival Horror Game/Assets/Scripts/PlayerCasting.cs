@@ -11,11 +11,7 @@ public class PlayerCasting : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        RaycastHit hit;
-        if (Physics.Raycast(transform.position, target.transform.position, out hit))
-        {
-            toTarget = hit.distance;
-            PlayerCasting.distanceFromTarget = toTarget;
-        }
+        toTarget = Vector3.Distance(transform.position, target.transform.position);
+        PlayerCasting.distanceFromTarget = toTarget;
     }
 }
